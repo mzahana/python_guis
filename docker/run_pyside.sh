@@ -33,7 +33,7 @@ fi
 
 PLATFORM="$(uname -m)"
 
-BASE_NAME="mzahana/jetson-pyside:r${L4T_VERSION}"
+BASE_NAME="mzahana/jetson-pyside:${L4T_VERSION}"
 CONTAINER_NAME="pyside-container"
 
 CMD="/bin/bash"
